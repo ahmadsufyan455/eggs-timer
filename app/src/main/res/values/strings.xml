@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Eggs Timer</string>
+    <string name="soft">SOFT</string>
+    <string name="medium">MEDIUM</string>
+    <string name="hard">HARD</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="reset">RESET</string>
+    <string name="timer_soft">03:40</string>
+    <string name="timer_medium">04:40</string>
+    <string name="timer_hard">08:40</string>
+    <string name="finish">Finish!</string>
+    <string name="alert_title">Stop Timer</string>
+    <string name="alert_message">Are you sure you want to stop this timer ?</string>
+    <string name="enjoy">Enjoy your meal!</string>
+</resources>

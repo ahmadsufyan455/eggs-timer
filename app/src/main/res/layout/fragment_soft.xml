@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.SoftFragment">
+
+    <ImageView
+        android:id="@+id/img_egg"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:contentDescription="@string/soft"
+        android:src="@drawable/egg" />
+
+    <TextView
+        android:id="@+id/txt_enjoy_soft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_egg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/psemibold"
+        android:text="@string/enjoy"
+        android:textColor="@color/myTextColor"
+        android:textSize="16sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txt_timer_soft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_start_soft"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/psemibold"
+        android:text="@string/timer_soft"
+        android:textColor="@color/myTextColor"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btn_start_soft"
+        android:layout_width="169dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp"
+        android:background="@drawable/selected_tab"
+        android:fontFamily="@font/psemibold"
+        android:text="@string/start" />
+
+</RelativeLayout>
